@@ -1,0 +1,18 @@
+[[OTF2]]
+arch = "x86_64"
+git-tree-sha1 = "761799a1652d049742a0a7a1203f07edc553efa5"
+libc = "glibc"
+os = "linux"
+
+    [[OTF2.download]]
+    sha256 = "ed377ad56232dfe270a9f1ac1b606880fdb3e3d8fb7273974b2960dbd8eae2c0"
+    url = "https://github.com/JuliaBinaryWrappers/OTF2_jll.jl/releases/download/OTF2-v3.0.3+0/OTF2.v3.0.3.x86_64-linux-gnu.tar.gz"
+[[OTF2]]
+arch = "x86_64"
+git-tree-sha1 = "d4b6d5880aebef70d091a4f891d9d763ef7b3baa"
+libc = "musl"
+os = "linux"
+
+    [[OTF2.download]]
+    sha256 = "0e5d4ef0aa472a2a337ca72c91a64e8aa83a3a63a8f633a9fe19136d0899eaef"
+    url = "https://github.com/JuliaBinaryWrappers/OTF2_jll.jl/releases/download/OTF2-v3.0.3+0/OTF2.v3.0.3.x86_64-linux-musl.tar.gz"
