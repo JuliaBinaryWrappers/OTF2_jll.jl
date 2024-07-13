@@ -1,18 +1,252 @@
 [[OTF2]]
-arch = "x86_64"
-git-tree-sha1 = "761799a1652d049742a0a7a1203f07edc553efa5"
+arch = "aarch64"
+git-tree-sha1 = "998c854b686658665b29df4eaa59cb439c013f63"
+os = "macos"
+
+    [[OTF2.download]]
+    sha256 = "dc4977f2474c056c1abb45c0d5608acd804fea7bd0469b164bd34cacf0e48d32"
+    url = "https://github.com/JuliaBinaryWrappers/OTF2_jll.jl/releases/download/OTF2-v3.0.3+1/OTF2.v3.0.3.aarch64-apple-darwin.tar.gz"
+[[OTF2]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "b3002e1af4cdf1d182d1380f203a11221cdc9f0d"
 libc = "glibc"
 os = "linux"
 
     [[OTF2.download]]
-    sha256 = "ed377ad56232dfe270a9f1ac1b606880fdb3e3d8fb7273974b2960dbd8eae2c0"
-    url = "https://github.com/JuliaBinaryWrappers/OTF2_jll.jl/releases/download/OTF2-v3.0.3+0/OTF2.v3.0.3.x86_64-linux-gnu.tar.gz"
+    sha256 = "7692dd4cb7b9d6712e19c86026cfb27cc98ee2333baa6bbfdef7235d099c3c6b"
+    url = "https://github.com/JuliaBinaryWrappers/OTF2_jll.jl/releases/download/OTF2-v3.0.3+1/OTF2.v3.0.3.aarch64-linux-gnu-cxx03.tar.gz"
 [[OTF2]]
-arch = "x86_64"
-git-tree-sha1 = "d4b6d5880aebef70d091a4f891d9d763ef7b3baa"
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "53e9b967388dc82650dc1b04f4ee5822f29f82b1"
+libc = "glibc"
+os = "linux"
+
+    [[OTF2.download]]
+    sha256 = "46a462355432ee9101f8a8555e178cb5f2997dc23868f8c775cfa3a28d641de2"
+    url = "https://github.com/JuliaBinaryWrappers/OTF2_jll.jl/releases/download/OTF2-v3.0.3+1/OTF2.v3.0.3.aarch64-linux-gnu-cxx11.tar.gz"
+[[OTF2]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "cc83e0cbd5878c242b46c4cd7214f3db4731f0c5"
 libc = "musl"
 os = "linux"
 
     [[OTF2.download]]
-    sha256 = "0e5d4ef0aa472a2a337ca72c91a64e8aa83a3a63a8f633a9fe19136d0899eaef"
-    url = "https://github.com/JuliaBinaryWrappers/OTF2_jll.jl/releases/download/OTF2-v3.0.3+0/OTF2.v3.0.3.x86_64-linux-musl.tar.gz"
+    sha256 = "c42adbff2bf64109e95605a7b4aec86e539a49b1f4042ff0311fe722f55e559b"
+    url = "https://github.com/JuliaBinaryWrappers/OTF2_jll.jl/releases/download/OTF2-v3.0.3+1/OTF2.v3.0.3.aarch64-linux-musl-cxx03.tar.gz"
+[[OTF2]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "f10f3ca02c6297be6b4057100a5479e2382314c5"
+libc = "musl"
+os = "linux"
+
+    [[OTF2.download]]
+    sha256 = "cf829ce072af97f0efee5065d01674a9dec01044d474a7538d0399419f6d2909"
+    url = "https://github.com/JuliaBinaryWrappers/OTF2_jll.jl/releases/download/OTF2-v3.0.3+1/OTF2.v3.0.3.aarch64-linux-musl-cxx11.tar.gz"
+[[OTF2]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "c0b1a71d15a1df455e70f9bc01f080e5b0bdefae"
+libc = "glibc"
+os = "linux"
+
+    [[OTF2.download]]
+    sha256 = "142701f197e1738dd12d1bd4078c92e2d49af5f41967be5f6841af90bacd8182"
+    url = "https://github.com/JuliaBinaryWrappers/OTF2_jll.jl/releases/download/OTF2-v3.0.3+1/OTF2.v3.0.3.armv6l-linux-gnueabihf-cxx03.tar.gz"
+[[OTF2]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "de0aa573000d5898046d50f5c4edec242fbd535e"
+libc = "glibc"
+os = "linux"
+
+    [[OTF2.download]]
+    sha256 = "ced74ad7afb1a3a63f97625c1a19797fe9f50e152f4883be756def0d86a3dcc3"
+    url = "https://github.com/JuliaBinaryWrappers/OTF2_jll.jl/releases/download/OTF2-v3.0.3+1/OTF2.v3.0.3.armv6l-linux-gnueabihf-cxx11.tar.gz"
+[[OTF2]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "e54106dce95c3fdd2ebe2ae4121c8a33bc4bda82"
+libc = "musl"
+os = "linux"
+
+    [[OTF2.download]]
+    sha256 = "df7422790f5a82fe6a8171a601d5bde57d53536f3f58727b0fc012b1cc199b7b"
+    url = "https://github.com/JuliaBinaryWrappers/OTF2_jll.jl/releases/download/OTF2-v3.0.3+1/OTF2.v3.0.3.armv6l-linux-musleabihf-cxx03.tar.gz"
+[[OTF2]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "21e34734a6478cbf854a5160c1e431ad05bd0886"
+libc = "musl"
+os = "linux"
+
+    [[OTF2.download]]
+    sha256 = "c48ddf2e2f10ec404b7fec0bcba8cacc45cce8eda7c00cee2b1d016d6d5afc47"
+    url = "https://github.com/JuliaBinaryWrappers/OTF2_jll.jl/releases/download/OTF2-v3.0.3+1/OTF2.v3.0.3.armv6l-linux-musleabihf-cxx11.tar.gz"
+[[OTF2]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "e849fe5bb2a2236f5007ea608d65d8158a460853"
+libc = "glibc"
+os = "linux"
+
+    [[OTF2.download]]
+    sha256 = "29a3b9a882377f9ff9a06034097511cdd4338d9a219c798b6562137462cf8f51"
+    url = "https://github.com/JuliaBinaryWrappers/OTF2_jll.jl/releases/download/OTF2-v3.0.3+1/OTF2.v3.0.3.armv7l-linux-gnueabihf-cxx03.tar.gz"
+[[OTF2]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "6164e3f47e617de39f44a8b2ba9e96a790050108"
+libc = "glibc"
+os = "linux"
+
+    [[OTF2.download]]
+    sha256 = "71593dbb632ba4a8895e9c139707cadefd8a7f2a32158e697d38e2f0c4ab5f04"
+    url = "https://github.com/JuliaBinaryWrappers/OTF2_jll.jl/releases/download/OTF2-v3.0.3+1/OTF2.v3.0.3.armv7l-linux-gnueabihf-cxx11.tar.gz"
+[[OTF2]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "bfeb8ccedfefcc862bf281505921d34370d6fc86"
+libc = "musl"
+os = "linux"
+
+    [[OTF2.download]]
+    sha256 = "c2be4c191ee818fae54a5e39c1783a40f2a5e1be2ffadfb8789a63ca4571cb73"
+    url = "https://github.com/JuliaBinaryWrappers/OTF2_jll.jl/releases/download/OTF2-v3.0.3+1/OTF2.v3.0.3.armv7l-linux-musleabihf-cxx03.tar.gz"
+[[OTF2]]
+arch = "armv7l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "0395a671f105644ac1b8997eefd0db987e8cbcb7"
+libc = "musl"
+os = "linux"
+
+    [[OTF2.download]]
+    sha256 = "5fbbef0851fe6344ef767997e3062d3ab150a8bd181adbdb363b92eda6005127"
+    url = "https://github.com/JuliaBinaryWrappers/OTF2_jll.jl/releases/download/OTF2-v3.0.3+1/OTF2.v3.0.3.armv7l-linux-musleabihf-cxx11.tar.gz"
+[[OTF2]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "707adcefab791ea03f1e78c2b4edb746797099f0"
+libc = "glibc"
+os = "linux"
+
+    [[OTF2.download]]
+    sha256 = "be16b116d3896fcf1df51a239fd95b73877ae0df26e5dd7e3bfd43196d6302e9"
+    url = "https://github.com/JuliaBinaryWrappers/OTF2_jll.jl/releases/download/OTF2-v3.0.3+1/OTF2.v3.0.3.i686-linux-gnu-cxx03.tar.gz"
+[[OTF2]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "2ad76c92e0b61b56e05f9778845c8a236c86857b"
+libc = "glibc"
+os = "linux"
+
+    [[OTF2.download]]
+    sha256 = "8382fa3e6d0509ee684b9b7b14d5f8157f53079e242d1e7ea7e6055007dba7a4"
+    url = "https://github.com/JuliaBinaryWrappers/OTF2_jll.jl/releases/download/OTF2-v3.0.3+1/OTF2.v3.0.3.i686-linux-gnu-cxx11.tar.gz"
+[[OTF2]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "914cb0a710cdb29f318b7f925a71e45c3297eaf0"
+libc = "musl"
+os = "linux"
+
+    [[OTF2.download]]
+    sha256 = "82014d82a58e6adbdce4dde36b3d4065369695fc76bea3fa437572478777d70a"
+    url = "https://github.com/JuliaBinaryWrappers/OTF2_jll.jl/releases/download/OTF2-v3.0.3+1/OTF2.v3.0.3.i686-linux-musl-cxx03.tar.gz"
+[[OTF2]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "56e4d243e65f2c2f758403ff95a062d10e4170b9"
+libc = "musl"
+os = "linux"
+
+    [[OTF2.download]]
+    sha256 = "798d3547664193d8878a60e115b459a489747c0b71122d52c31603441d45b3cf"
+    url = "https://github.com/JuliaBinaryWrappers/OTF2_jll.jl/releases/download/OTF2-v3.0.3+1/OTF2.v3.0.3.i686-linux-musl-cxx11.tar.gz"
+[[OTF2]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "0f47969625459202d9fe6de2d0a1cb0fcb837e9a"
+libc = "glibc"
+os = "linux"
+
+    [[OTF2.download]]
+    sha256 = "91d559c5e9d8626721de82074f67e971e6080d4ee3f5c8dd875578daa61437d8"
+    url = "https://github.com/JuliaBinaryWrappers/OTF2_jll.jl/releases/download/OTF2-v3.0.3+1/OTF2.v3.0.3.powerpc64le-linux-gnu-cxx03.tar.gz"
+[[OTF2]]
+arch = "powerpc64le"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "5b1ad138a83a3d2fc41cad6660f2e7782baadd55"
+libc = "glibc"
+os = "linux"
+
+    [[OTF2.download]]
+    sha256 = "f2761213f8652a040a44c248750a40ef831b2bed1bba6ac0a30d50c9f4af2b18"
+    url = "https://github.com/JuliaBinaryWrappers/OTF2_jll.jl/releases/download/OTF2-v3.0.3+1/OTF2.v3.0.3.powerpc64le-linux-gnu-cxx11.tar.gz"
+[[OTF2]]
+arch = "x86_64"
+git-tree-sha1 = "8cf3df0b4b4ab79f8b026010c6a1372b04da47a6"
+os = "macos"
+
+    [[OTF2.download]]
+    sha256 = "74eb4d58f78d51b6fd5882fc66818c4191a89f1b813ba6b77c19fc13f342d2df"
+    url = "https://github.com/JuliaBinaryWrappers/OTF2_jll.jl/releases/download/OTF2-v3.0.3+1/OTF2.v3.0.3.x86_64-apple-darwin.tar.gz"
+[[OTF2]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "5d48a11aafc286e115913473c3fd99fd09ad4b6c"
+libc = "glibc"
+os = "linux"
+
+    [[OTF2.download]]
+    sha256 = "4aa143188e401c7c18e2e39c4dbdc27b20a5b7f608b33df4b22c5cfae93f51a3"
+    url = "https://github.com/JuliaBinaryWrappers/OTF2_jll.jl/releases/download/OTF2-v3.0.3+1/OTF2.v3.0.3.x86_64-linux-gnu-cxx03.tar.gz"
+[[OTF2]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "b2764d30db5202902a00fb15d16153e7bc129dc8"
+libc = "glibc"
+os = "linux"
+
+    [[OTF2.download]]
+    sha256 = "23fdfb313f4c5960e52cdf16de99e2aafeb0746c175a1e8125699d6b7cb5f21e"
+    url = "https://github.com/JuliaBinaryWrappers/OTF2_jll.jl/releases/download/OTF2-v3.0.3+1/OTF2.v3.0.3.x86_64-linux-gnu-cxx11.tar.gz"
+[[OTF2]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "68f3e353dff1fe376e2feef66b823f0eed8d1c88"
+libc = "musl"
+os = "linux"
+
+    [[OTF2.download]]
+    sha256 = "cc8024fbc90144ccecf9bbd544aebcfe37c6be172c5bedc2bd6ab4355f41ee4b"
+    url = "https://github.com/JuliaBinaryWrappers/OTF2_jll.jl/releases/download/OTF2-v3.0.3+1/OTF2.v3.0.3.x86_64-linux-musl-cxx03.tar.gz"
+[[OTF2]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "5a93eaa11d5bbc75b93695d3c71c612caee93db5"
+libc = "musl"
+os = "linux"
+
+    [[OTF2.download]]
+    sha256 = "dc2426381bba2917f94c8bebcf4c8ce0f5da149e3df8ba81d75c7b9be1321e09"
+    url = "https://github.com/JuliaBinaryWrappers/OTF2_jll.jl/releases/download/OTF2-v3.0.3+1/OTF2.v3.0.3.x86_64-linux-musl-cxx11.tar.gz"
+[[OTF2]]
+arch = "x86_64"
+git-tree-sha1 = "d34b89830c4e1c6b50b983a547cb68165c487896"
+os = "freebsd"
+
+    [[OTF2.download]]
+    sha256 = "35c802cdc530281b7ee53d27a4ae2bc6cc2d6927c12a42f3a3c90b8880d5cdcb"
+    url = "https://github.com/JuliaBinaryWrappers/OTF2_jll.jl/releases/download/OTF2-v3.0.3+1/OTF2.v3.0.3.x86_64-unknown-freebsd.tar.gz"

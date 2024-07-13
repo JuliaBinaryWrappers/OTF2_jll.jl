@@ -1,6 +1,6 @@
 name = "OTF2_jll"
 uuid = "312b3e1d-731b-5709-b7dd-8df63785c7d0"
-version = "3.0.3+0"
+version = "3.0.3+1"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
